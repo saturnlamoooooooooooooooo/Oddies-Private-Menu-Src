@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z2JPz3AG++U=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\monoc\\Downloads\\OddieMenuTemp\\OddieMenuTemp\\OddieMenuTemp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\monoc\\.nuget\\packages\\lib.harmony\\2.4.2\\lib.harmony.2.4.2.nupkg.sha512"
+  ],
+  "logs": []
+}
