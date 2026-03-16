@@ -84,8 +84,7 @@ namespace OddieMenuTemp
 				{
 					if (!player.IsLocal)
 					{
-						bool isMasterClient = player.IsMasterClient;
-						if (isMasterClient)
+						if (player.IsMasterClient)
 						{
 							PT = string.Concat(new string[]
 							{
@@ -191,8 +190,7 @@ namespace OddieMenuTemp
 					TPGun.GetComponent<Renderer>().material.color = Color.red;
 					TPGun.transform.localScale = new Vector3(0.15f, 0.15f, 0.15f);
 					TPGun.GetComponent<SphereCollider>().enabled = false;
-					bool triggerButtonDown = EasyInputs.GetTriggerButtonDown(EasyHand.RightHand);
-					if (triggerButtonDown)
+					if (EasyInputs.GetTriggerButtonDown(EasyHand.RightHand))
 					{
 						Player.Instance.gameObject.transform.position = TPGun.transform.position;
 					}
@@ -260,8 +258,7 @@ namespace OddieMenuTemp
 						KGun.transform.localScale = new Vector3(0.15f, 0.15f, 0.15f);
 						KGun.GetComponent<SphereCollider>().enabled = false;
 						Photon.Realtime.Player owner = raycastHit2.collider.GetComponentInParent<PhotonView>().Owner;
-						bool triggerButtonDown2 = EasyInputs.GetTriggerButtonDown(EasyHand.RightHand);
-						if (triggerButtonDown2)
+						if (EasyInputs.GetTriggerButtonDown(EasyHand.RightHand))
 						{
 							KGun.GetComponent<Renderer>().material.color = Color.green;
 							Crash.CrashPerson(owner);
@@ -328,8 +325,7 @@ namespace OddieMenuTemp
 						KGun.GetComponent<SphereCollider>().enabled = false;
 						Photon.Realtime.Player owner2 = raycastHit4.collider.GetComponentInParent<PhotonView>().Owner;
 						PhotonView componentInParent = raycastHit4.collider.GetComponentInParent<PhotonView>();
-						bool triggerButtonDown4 = EasyInputs.GetTriggerButtonDown(EasyHand.RightHand);
-						if (triggerButtonDown4)
+						if (EasyInputs.GetTriggerButtonDown(EasyHand.RightHand))
 						{
 							KGun.GetComponent<Renderer>().material.color = Color.green;
 							PhotonNetwork.SetMasterClient(owner2);

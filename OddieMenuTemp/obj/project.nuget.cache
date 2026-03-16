@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z2JPz3AG++U=",
+  "dgSpecHash": "MjzuQtMp/n8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\monoc\\Downloads\\OddieMenuTemp\\OddieMenuTemp\\OddieMenuTemp.csproj",
+  "projectFilePath": "C:\\Users\\monoc\\OneDrive\\Documents\\GitHub\\Oddies-Private-Menu-Src\\OddieMenuTemp\\OddieMenuTemp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\monoc\\.nuget\\packages\\lib.harmony\\2.4.2\\lib.harmony.2.4.2.nupkg.sha512"
   ],
